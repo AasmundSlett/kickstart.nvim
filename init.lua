@@ -8,8 +8,7 @@ vim.g.maplocalleader = ' '
 vim.g.have_nerd_font = false
 
 -- [[ Setting options ]]
--- See `:help vim.o`
---  For more options, you can see `:help option-list`
+-- See `:help vim.o` or `:help option-list`
 
 -- Make line numbers default
 vim.o.number = true
