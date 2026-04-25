@@ -220,7 +220,6 @@ require('lazy').setup({
     },
   },
 
-
   { -- Fuzzy Finder (files, lsp, etc)
     'nvim-telescope/telescope.nvim',
     event = 'VimEnter',
@@ -722,10 +721,10 @@ require('lazy').setup({
   },
 
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua`
-  -- { import = 'custom.plugins' },
+  { import = 'custom.plugins' },
+  { import = 'kickstart.plugins' },
   --
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
-
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
